@@ -3,6 +3,7 @@ module github.com/notaryproject/notation-go
 go 1.22.0
 
 require (
+	github.com/AdaLogics/go-fuzz-headers v0.0.0-20240806141605-e8a1dd7889d6
 	github.com/go-ldap/ldap/v3 v3.4.8
 	github.com/notaryproject/notation-core-go v1.2.0-rc.2
 	github.com/notaryproject/notation-plugin-framework-go v1.0.0
