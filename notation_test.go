@@ -760,7 +760,7 @@ func TestLocalContent(t *testing.T) {
 		// verify the artifact
 		verifyOpts := VerifyOptions{
 			ArtifactReference:    artifactReference,
-			MaxSignatureAttempts: math.MaxInt64,
+			MaxSignatureAttempts: math.MaxInt,
 		}
 		policyDocument := dummyPolicyDocument()
 		verifier := dummyVerifier{&policyDocument, mock.PluginManager{}, false, *trustpolicy.LevelStrict, false}
